@@ -66,16 +66,45 @@
                     <li>
                         <a class="page-scroll" href="#contact">Cont&aacute;ctenos</a>
                     </li>
-                    <li class="dropdown" id="menuLogin">
-                        <a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">Iniciar Sesi&oacute;n</a>
-                        <div class="dropdown-menu">
-                            <form class="form" id="formLogin"> 
-                                <input name="username" id="username" type="text" placeholder="Nombre de usuario"> 
-                                <input name="password" id="password" type="password" placeholder="Contraseña"><br>
-                                <button type="button" id="btnLogin" class="btn">Inicia Sesi&oacute;n</button>
-                            </form>
-                        </div>
-                    </li>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Iniciar Sesi&oacute;n</b> <span class="caret"></span></a>
+                            <ul id="login-dp" class="dropdown-menu">
+                                <li>
+                                     <div class="row">
+                                            <div class="col-md-12">
+                                                Inicia Sesi&oacute;n con
+                                                <div class="social-buttons">
+                                                    <a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+                                                    <a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+                                                </div>
+                                                o con tu cuenta de Auxilia2 
+                                                 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                                                        <div class="form-group">
+                                                             <label class="sr-only" for="exampleInputEmail2">ejemplo@dominio.com</label>
+                                                             <input type="email" class="form-control" id="exampleInputEmail2" placeholder="ejemplo@dominio.com" required>
+                                                        </div>
+                                                        <div class="form-group">
+                                                             <label class="sr-only" for="exampleInputPassword2">Contrase&ntilde;a</label>
+                                                             <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Contrase&ntilde;a" required>
+                                                             <div id ="olvidar" class="help-block text-right"><a href="" id="text-olvidar">Olvidaste tu contrase&ntilde;a ?</a></div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                             <button type="submit" class="btn btn-primary btn-block">Inicia Sesi&oacute;n</button>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                             <label>
+                                                             <input type="checkbox">  No cerrar sesi&oacute;n
+                                                             </label>
+                                                        </div>
+                                                 </form>
+                                            </div>
+                                            <div class="bottom text-center">
+                                                Nuevo Aqu&iacute;? <a href="#"><b id ="registrar-txt">Reg&iacute;strate</b></a>
+                                            </div>
+                                     </div>
+                                </li>
+                            </ul>
 
                 </ul>
             </div>
@@ -88,9 +117,9 @@
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-lg-12" id="logo">
-                    <img class="img-responsive" src="img/logo.png" alt="NO CARGO :C">
-                     <a href="#services" class="page-scroll btn btn-xl">Ver M&aacute;s</a>
+                <div class="col-lg-12">
+                    <div id="logo"><img class="img-responsive " width="65%" height ="65%" src="img/logo.png" alt="Logo primeros auxilios" ></div>
+                    <div id="bver"> <a href="#services" class="page-scroll btn btn-xl">Ver M&aacute;s</a></div>
                 </div>
             </div>
         </div>
@@ -99,7 +128,7 @@
 
     <!-- Services Section -->
     <section id="services">
-        <div class="container">
+        <div class="container" id ="intro">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">¿Qué son los primeros auxilios?</h2>
