@@ -1,0 +1,167 @@
+/*-- banner-info (Header)--*/
+.banner-info
+{
+	padding-top:13%;
+	margin-right: 40%;
+}
+.banner-info h1
+{
+	color: #B22024;
+	margin:0;
+	padding:0;
+}
+.banner-info p
+{
+	color:#000;
+	margin: 0em 0 1em 0;
+}
+
+.banner-info img
+{
+	margin-bottom:0.7em;
+	display:inline-block;
+}
+
+/*Estilos de los foros*/
+.blog {
+	border-bottom: 1px solid #C2C2C2;
+	padding: 4em 0;
+}
+.blog-top{
+	text-align: center;
+}
+.blog-top h3{
+	font-size: 2.5em;
+	margin: 0;
+	color: #000;
+	font-weight: 600;
+}
+.blog-top img.line-blog{
+	margin: 0 auto;
+}
+.blog-top p{
+	font-size: 1em;
+	margin: 0 20em;
+	color: #000;
+	width: 33%;
+	padding: 1.5em 0 4em;
+}
+/*---*/
+.post-grid h3{
+	font-size: 1.8em;
+	margin: 0;
+	color: #000;
+	font-weight: 600;
+	padding: 0 1em;
+}
+h3.the-blog{
+	padding: 0 0 0 11em;
+}
+.post-grid p{
+	font-size: 1em;
+	margin: 0 auto;
+	color: #000;
+	width: 91%;
+	padding: 0.4em 0 ;
+	line-height: 22px;
+}
+.blog-date h6{
+	background: #B22024;
+	font-size: 3.5em;
+	font-weight: 700;
+	color: #fff;
+	padding: 0.3em 0.73em;
+	width:71%;
+	margin: 0;
+}
+.blog-date label{
+	background: #B22024;
+	font-size: 1.1em;
+	font-weight: 300;
+	color: #fff;
+	padding: 0.2em 0.85em;
+	margin: 0.5em auto;
+}
+.blog-date {
+	padding: 2px 0;
+}
+.blog-bottom {
+	padding: 1.5em 0;
+}
+
+@media(max-width:1024px){
+	.blog-date h6 {
+	width: 86%;
+}
+}
+
+@media(max-width:768px){
+	.blog-top p {
+	width: 49%;
+	margin: 0 auto;
+	padding: 1.5em 0 1em;
+}
+.blog-date h6 {
+	width: 18.5%;
+}
+.blog {
+	padding: 3em 0;
+}
+}
+
+@media(max-width:640px){
+
+.blog-top p {
+	width: 66%;
+	margin: 0 auto;
+	padding: 0.5em 0 1em;
+}
+.blog-date h6 {
+	width: 22.3%;
+}
+}
+
+@media(max-width:480px){
+	.blog {
+	padding: 2em 0;
+}
+.blog-top p {
+	width: 81%;
+}
+.blog-date h6 {
+	width: 31.3%;
+	text-align: center;
+	font-size: 3em;
+}
+.post-grid h3 {
+	font-size: 1.5em;
+}
+.post-grid p {
+	height: 55px;
+	overflow: hidden;
+}
+}
+
+@media(max-width:320px){
+	.blog-top p {
+	height: 42px;
+	overflow: hidden;
+	font-size: 0.9em;
+}
+.blog-date h6 {
+	width: 42.5%;
+	font-size: 2.5em;
+}
+.blog-date label {
+	font-size: 0.9em;
+}
+h3.the-blog {
+	padding: 0 0 0 5em;
+}
+.post-grid p {
+	font-size: 0.9em;
+}
+.post-grid h3 {
+	font-size: 1.3em;
+}
+}
