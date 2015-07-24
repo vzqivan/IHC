@@ -79,6 +79,7 @@ h6 {
     font-weight: 700;
     color: #fff;
     background-color: #B22024;
+    letter-spacing: 1px;
 }
 
 .btn-primary:hover,
@@ -262,6 +263,7 @@ fieldset[disabled] .btn-xl.active {
 }
 #login-dp .social-buttons a{
     width: 49%;
+    font-size: 12px;
 }
 #login-dp .form-group {
     margin-bottom: 10px;
