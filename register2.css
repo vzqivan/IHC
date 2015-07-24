@@ -1,0 +1,25 @@
+#bver{
+	margin-top: 9%;
+	margin-right: 42%;
+}
+
+#titulo{
+	margin-top:3%;
+	font-size:45px;
+
+}
+
+#par{
+	font-size:20px;
+}
+
+header{
+    background-image: url(../img/p.jpg);
+    background-size: 100%;
+    /*opacity: 0.5;*/
+
+}
+header .row {
+    padding-top: 100px;
+    padding-bottom: 181px;
+}
