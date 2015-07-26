@@ -1,4 +1,7 @@
 /*-- banner-info (Header)--*/
+.banner-perfil{
+	padding-top:20%;
+ }
 .banner-info
 {
 	padding-top:13%;
@@ -8,8 +11,8 @@
 {
 	color: #B22024;
 	margin:0;
-	padding:0;
-}
+	padding:0
+;}
 .banner-info p
 {
 	color:#000;
@@ -21,8 +24,19 @@
 	margin-bottom:0.7em;
 	display:inline-block;
 }
-
+#about-me{
+	margin-right: 12%;
+}
+/*Estilos de los cursos*/
+h5{
+	color:#214EB6;
+}
 /*Estilos de los foros*/
+
+.tema-foro{
+width: 275px;
+height: 125px;
+}
 .blog {
 	border-bottom: 1px solid #C2C2C2;
 	padding: 4em 0;
@@ -40,7 +54,6 @@
 	margin: 0 auto;
 }
 .blog-top p{
-	font-size: 1em;
 	margin: 0 20em;
 	color: #000;
 	width: 33%;
@@ -58,7 +71,6 @@ h3.the-blog{
 	padding: 0 0 0 11em;
 }
 .post-grid p{
-	font-size: 1em;
 	margin: 0 auto;
 	color: #000;
 	width: 91%;
