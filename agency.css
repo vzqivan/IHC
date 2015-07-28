@@ -237,6 +237,11 @@ fieldset[disabled] .btn-xl.active {
 }
 
 /*Estilos del buscador*/
+
+#buscador-form{
+    margin-right: 4%;
+}
+
 #buscador-li{
     margin-top: 1%;
 }
@@ -565,7 +570,7 @@ margin-top: -30%;;
 
 #portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
-    text-transform: none;
+    text-transform: uppercase;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
