@@ -16,6 +16,9 @@
     <link href="css/register.css" rel="stylesheet">
     <link href="css/agency.css" rel="stylesheet">
 
+    <!-- Favicon -->
++    <link rel="icon" type="image/png" href="icon.png"> 
+
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -135,20 +138,31 @@
                         <a href="#" class="icon ticker"> </a>
                         <div class="clear"> </div>
                     </li> 
-                    <div class="form-group">
-                          <label for="exampleInputFile">Fecha de Nacimiento:</label>
-                          <input type="date" required step="1" max="2000-01-01" value="1999-12-31">
-                    </div>
-                    <form action="demo_form.asp">
-                      <label>Sexo:</label>
-                     
-                      <input type="radio" name="sex" id="male" value="male"><br><label for="male">Hombre</label>
+                    <li>
+                          <h4 id="birthc">Fecha de Nacimiento:</h4>
+                          <input id="birth" type="date" required step="1" max="2000-01-01" value="AAAA-MM-DD">
+                          <a href="#" class="icon ticker"> </a>
+                          <div class="clear"> </div>
+                        
+                    </li>
+                    <li>
                       
-                      <input type="radio" name="sex" id="female" value="female"><br><label id="mujer" for="female">Mujer</label>
-                    </form>  
+                          <h4 id="sex">Sexo:</h4>
+                          <div class="hombre">
+                              <h4 id="hombre" for="male">Hombre</h4>
+                              <input type="radio" name="sex" id="male" value="male">
+                          </div>
+                          <div class="mujer">
+                              <h4 id="mujer" for="female">Mujer</h4>
+                              <input type="radio" name="sex" id="female" value="female">
+                          </div>
+                          <a href="#" class="icon into"> </a>
+                          <div class="clear"> </div>
+                      
+                    </li>  
                     <li>
                         <input type="text"   placeholder="Correo electr&oacute;nico" required/>
-                        <a href="#" class="icon ticker"> </a>
+                        <a href="#" class="icon into"> </a>
                         <div class="clear"> </div>
                     </li> 
                     <li>
