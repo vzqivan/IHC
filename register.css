@@ -144,6 +144,41 @@ form{
 
 }
 
+#birthc{
+    margin-top: 2%;
+}
+
+
+#birth{
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+
+#sex{
+    padding-top: 2%;
+}
+
+#hombre{
+    padding-top: 2%;
+   padding-left: 2%;
+}
+
+#mujer{
+    padding-left: 6%;
+    padding-top: 2%;
+}
+
+#male{
+    margin-top: 2.3%;
+    margin-left: -13%;
+}
+
+#female{
+    margin-top: 2.3%;
+    margin-left: 10.5%;
+}
+
 .btn-xl {
     padding: 20px 40px;
     border-color: #000;
